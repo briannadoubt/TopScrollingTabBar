@@ -65,3 +65,6 @@ struct ContentView: View {
     }
 }
 ```
+
+## Future Goals
+- [ ] Utilize `tabItem` modifier and `@ViewBuilder` initializer to generate the tabs from the child views' hierarchy.
