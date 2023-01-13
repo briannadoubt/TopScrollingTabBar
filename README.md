@@ -34,7 +34,9 @@ enum PreviewTab: String, TopTab {
 }
 ```
 
-Then, stick that `TopTab` conforming object somewhere behind a bindable property wrapper (`@State`, `@Binding`, `@Published`, etc), and bind it to the `TopScrollingTabBar` view. Inside the `Content` of the `TopScrollingTabBar`, add the view you'd like to display for the given tab:
+Then, stick that `TopTab` conforming object somewhere behind a bindable property wrapper (`@State`, `@Binding`, `@Published`, etc), and bind it to the `TopScrollingTabBar` view.
+
+Inside the `Content` of the `TopScrollingTabBar`, add the view you'd like to display for the given tab:
 
 ```swift
 struct ContentView: View {
